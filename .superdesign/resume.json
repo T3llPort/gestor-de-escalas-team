@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "#escala": {
+      "targetKind": "existing-ui",
+      "projectId": "dc2b755a-32ec-45d0-9ba7-505f1706e712",
+      "baselineDraftId": "d56a651b-ffed-484e-88b7-37e0777397ed",
+      "activeDraftId": "a8c4e502-df37-4f1f-8686-7e5c1727b4e4",
+      "designSystemPath": ".superdesign/design-system.md",
+      "referenceIds": [
+        "5adc7f66-9f2c-4dcc-8122-3d451481492b",
+        "website-fourtechsolucoes.com.br-logo-lockup-light"
+      ],
+      "brandAssets": {
+        "logo": {
+          "assetKey": "website-fourtechsolucoes.com.br-logo-lockup-light",
+          "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/dc2b755a-32ec-45d0-9ba7-505f1706e712/brand-assets/website-fourtechsolucoes.com.br-logo-lockup-light/logo-lockup-light.png",
+          "sourcePath": ".superdesign/website/fourtechsolucoes.com.br/brand/logo-lockup-light.png"
+        }
+      },
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "index.html",
+        "js/schedule.js"
+      ],
+      "fingerprints": {
+        ".superdesign/design-system.md": "82ea709a7356f00cb3af6ffcf57a26bdcf5ca61cea3a02c0b8fca5e2ffc184cb",
+        "index.html": "0630f80c86bae853297938a1c15532c8180716d1a4173343632b2adb1c03e1a0",
+        "js/schedule.js": "dc28efc5404a335499695c7fe48b27d85bbebbcaa4f2a8088603bea22039e759"
+      },
+      "components": [
+        {
+          "name": "Sidebar",
+          "id": "a97ed1e0-089d-4b13-be5e-65e351c40da4",
+          "sourcePath": "index.html",
+          "logoAssetKey": "website-fourtechsolucoes.com.br-logo-lockup-light"
+        }
+      ],
+      "drafts": {
+        "d56a651b-ffed-484e-88b7-37e0777397ed": {
+          "title": "Escala da semana — atual (reprodução)",
+          "visualDirection": "current UI, pixel-perfect baseline (red/white)",
+          "currentVersion": 1
+        },
+        "505bf3b5-5f2c-4c36-a152-393b7a92ce22": {
+          "title": "Escala da semana — Variação A (limpa e arejada, vermelho)",
+          "visualDirection": "rejected by user",
+          "parentDraftId": "d56a651b-ffed-484e-88b7-37e0777397ed",
+          "currentVersion": 1
+        },
+        "6487e142-d796-4e1a-9b2f-84da51022e55": {
+          "title": "Escala da semana — Variação B (painel operacional, vermelho)",
+          "visualDirection": "rejected by user",
+          "parentDraftId": "d56a651b-ffed-484e-88b7-37e0777397ed",
+          "currentVersion": 1
+        },
+        "959587f4-f149-4424-bfd4-5d312955bd0d": {
+          "title": "Escala da semana — FourTech 1 (área de trabalho branca)",
+          "visualDirection": "FourTech: navy circuit sidebar, white workspace, square cards, navy folga blocks, blue primary — not selected",
+          "parentDraftId": "d56a651b-ffed-484e-88b7-37e0777397ed",
+          "currentVersion": 1
+        },
+        "a8c4e502-df37-4f1f-8686-7e5c1727b4e4": {
+          "title": "Escala da semana — FourTech 2 (cabeçalho azul-marinho)",
+          "visualDirection": "FourTech: navy circuit header band with week title and day stats, white workspace below — SELECTED by user and implemented in code (2026-11-05)",
+          "parentDraftId": "d56a651b-ffed-484e-88b7-37e0777397ed",
+          "currentVersion": 1
+        }
+      },
+      "updatedAt": "2026-11-05T08:30:00-03:00"
+    }
+  }
+}

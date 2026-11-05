@@ -1,0 +1,12 @@
+# Arquivos temporários e de terceiros do Superdesign
+.superdesign/tmp/
+.superdesign/website/
+
+# Configurações locais do Claude Code (permissões desta máquina)
+.claude/settings.local.json
+
+# Sistema e editores
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
